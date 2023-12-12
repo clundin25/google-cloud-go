@@ -1,5 +1,13 @@
 # Changes
 
+## [1.54.0](https://github.com/googleapis/google-cloud-go/compare/spanner/v1.53.1...spanner/v1.54.0) (2023-12-12)
+
+
+### Features
+
+* **spanner/executor:** Add autoscaling config in the instance to support autoscaling in systests ([29effe6](https://github.com/googleapis/google-cloud-go/commit/29effe600e16f24a127a1422ec04263c4f7a600a))
+* **spanner:** New clients ([#9127](https://github.com/googleapis/google-cloud-go/issues/9127)) ([2c97389](https://github.com/googleapis/google-cloud-go/commit/2c97389ddacdfc140a06f74498cc2753bb040a4d))
+
 ## [1.53.1](https://github.com/googleapis/google-cloud-go/compare/spanner/v1.53.0...spanner/v1.53.1) (2023-12-01)
 
 
@@ -867,4 +875,3 @@
 
 This is the first tag to carve out spanner as its own module. See:
 https://github.com/golang/go/wiki/Modules#is-it-possible-to-add-a-module-to-a-multi-module-repository.
-
